@@ -1,0 +1,2 @@
+# Peculiar
+An obsidianmd plugin
