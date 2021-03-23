@@ -1,0 +1,5 @@
+export const VIEW_TYPE_Query = "peculiar-query"
+export const VIEW_TYPE_Template = "peculiar-template"
+export const VIEW_TYPE_Data = "peculiar-data"
+export const VIEW_TYPE_Pipes = "peculiar-pipe"
+export const VIEW_TYPE_Anchor = "peculiar-anchor"

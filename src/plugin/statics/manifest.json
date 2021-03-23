@@ -1,0 +1,10 @@
+{
+	"id": "peculiar",
+	"name": "Peculiar",
+	"version": "0.0.1",
+	"minAppVersion": "0.0.1",
+	"description": "This Plugin Overhauls the Obsidian Experience and Adds a backend to the System",
+	"author": "Daniel Rustrum",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
