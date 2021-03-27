@@ -10,9 +10,29 @@
     // Type: brand, solid, regular
     export let type = "regular"
 
-    let iconStyle=`fill:${ color };width:${ size };height:${ size };`
+    let iconStyle=`
+    fill:${ color };
+    width:${ size };
+    height:${ size };
+    `
     let iconLocation = `C:\\Icons\\${ type.toLowerCase() }\\${ name }.svg`
+    
+    let fetchedIcon = null
+    fetch('http://127.0.0.1:3000/icon', {
+        method: "GET",
+        headers: {
+            "ICON-Type": type,
+            "ICON-Name": name
+        }
+    })
+    .then(r => r.text())
+    .then(text => {
+        fetchedIcon = text;
+    })
 </script>
+
+{@html fetchedIcon}
+
 
 <img 
     src={ iconLocation }
