@@ -5,8 +5,7 @@ This is an extisive list of features which are categorised where they might be f
   - General
     - Themeing
       - Simple by Default
-      - Can easily change color with color wheel.
-      - Extensive Theme Overrides can happen with CSS.
+      - Can easily change color with color palettes.
     - Settings
       - Toggable Features
       - Extras Off by Default
@@ -59,6 +58,13 @@ This is an extisive list of features which are categorised where they might be f
       - Download Pages
   - Plugs
     - General
+      - Metadata to Provide 
+        - Name
+        - Description
+        - Author
+        - Plateform
+      - Community Import Through Github
+      - Approval Process
     - Pins
       - Allows Creation of Custom Pins
       - Uses HTML, CSS, JS
