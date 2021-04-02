@@ -12,6 +12,12 @@ This is an extisive list of features which are categorised where they might be f
       - Extras Off by Default
     - Authorization
       - Signin with Microsoft or Github for Data Backup
+    - Accessibility Focued
+      - Gradual Introduction into New Features
+      - Dsylexic Fonts
+      - Double AA Complient Ideally AAA Complient
+      - Not Overcrowded UI
+      - Enforced Approved Plugs Are Accessible
   - Pages
     - Pins
       - Drag and Drop
