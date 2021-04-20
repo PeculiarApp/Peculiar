@@ -1,4 +1,4 @@
-package backend
+package controller
 
 type PipeDataType struct {
 	isString   bool

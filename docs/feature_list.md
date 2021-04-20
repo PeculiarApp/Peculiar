@@ -1,5 +1,5 @@
 # Feature List
-This is an extisive list of features which are categorised where they might be found within the system
+This is an extisive list of features which are categorised where they might be found within the system.
 
 - UI
   - General
@@ -38,11 +38,27 @@ This is an extisive list of features which are categorised where they might be f
   - Data
     - Variables
       - Global Access, but can be overritten
+      - Can Be Persistent, Local, or Both
+      - Data Types
+        - String
+        - Number
+        - Bool
+        - DateTime
+        - List
+        - Table
     - Events
       - Bounded by a triggerable object i.e. Pins, Pipes, or UI objects.
       - Executed by a list of actions happening within the UI, only UI.
     - Pipes
       - Visual Programming Language
+        - Conditionals
+          - If
+          - Otherwise
+        - Loops
+          - While
+          - For
+          - Loop 
+      - Focused on data Formating
       - Reads Like English
         - Falls back on broken translate if in different language.
       - Token Based

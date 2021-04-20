@@ -1,4 +1,4 @@
-package backend
+package controller
 
 func fetchIndex(collection string, document string) string {
 	return ""

@@ -1,7 +1,7 @@
 package main
 
 import (
-	run "peculiar/src/backend"
+	run "peculiar/src/controller"
 )
 
 func main() {

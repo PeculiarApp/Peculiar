@@ -4,15 +4,20 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "rollup --config rollup.config.js -w",
-    "build": "go build -o build/backend/ main.go && rollup --config rollup.config.js",
-    "test": "go run main.go"
+    "dev": "",
+    "build": "",
+    "test": "node ./test"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^2.44.0"
+    "accessibility-checker": "^3.1.5",
+    "command-line-args": "^5.1.1",
+    "copy-webpack-plugin": "^8.1.1",
+    "electron": "^12.0.2",
+    "puppeteer": "^8.0.0",
+    "webpack": "^5.30.0"
   },
   "dependencies": {}
 }
